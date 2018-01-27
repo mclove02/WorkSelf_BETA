@@ -1,0 +1,117 @@
+/* Default setting */
+
+* {
+   box-sizing: border-box;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  color:white;
+  font-size: 30px;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 0.1px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+
+.one {
+    font-family: 'Open Sans', sans-serif;
+  text-align: center;
+/*   margin-top:-150px;*/
+  width: 100%;
+    height: 780px;
+/*    min-width: 800px;*/
+/*    height: 100%;*/
+  background-color: deepskyblue;
+/*  margin-left: 150px;*/
+/*  background: url(anastasia-petro-193818.jpg);*/
+/*    background-position: bottom;*/
+/*  background-size: cover;*/
+}
+
+.inbox {
+    width: 50%;
+/*    min-width: 80%;*/
+    margin: 0 auto;
+}
+
+
+img {
+    margin-top: 80px;
+    width: 400px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #0D3582;
+    letter-spacing: -0.1px;
+  line-height: 1.8;
+/*    min-width: 85%;*/
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+
+
+.aww {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: yellow;
+    font-weight: bolder;
+}
+
+.pic2 {
+/*   position: inherit;*/
+    float: right;
+    padding-top:200px;
+}
+
+.awe {
+    color: #0D3582;
+/*    background: rgba(255,255,0,.8);*/
+/*    border-bottom: 8px solid rgba(255,255,0,1);*/
+/*    border-bottom-width: 10px;*/
+    
+}
+
+.awe:hover {
+    color:yellow;
+}
+
+@media only screen and (max-width: 680px) {
+    
+    .inbox {
+    width: 100%;
+      left:0;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    
+    p {
+        width: 70%;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    
+    img {
+        margin-top: 80px;
+    }
+}
+
+
+
+
+
+
