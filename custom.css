@@ -13,7 +13,7 @@ body {
 
 
 h1 {
-  color:white;
+  color: black;
   font-size: 30px;
     font-family: 'Merriweather', serif;
     letter-spacing: 0.1px;
@@ -32,7 +32,7 @@ h1 {
     height: 780px;
 /*    min-width: 800px;*/
 /*    height: 100%;*/
-  background-color: deepskyblue;
+  background-color: #FAFAFA;
 /*  margin-left: 150px;*/
 /*  background: url(anastasia-petro-193818.jpg);*/
 /*    background-position: bottom;*/
@@ -53,9 +53,9 @@ img {
 
 p {
     font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  color: #0D3582;
-    letter-spacing: -0.1px;
+  font-size: 14px;
+  color: darkslategrey;
+    letter-spacing: -0.2px;
   line-height: 1.8;
 /*    min-width: 85%;*/
     margin: 0 auto;
@@ -111,6 +111,10 @@ p {
 }
 
 
+.fun {
+    color: black;
+        box-shadow: inset 0 -16px 0 0px #73F7FF;
+}
 
 
 
