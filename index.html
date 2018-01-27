@@ -5,7 +5,25 @@
     <title>Workself : Soft skills improvement through peer feedback</title>
     <link rel="stylesheet" href="custom.css">
    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
+      
   </head>
+    <script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s + " Jan 27th 2017";
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
 <!--  <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>-->
 
   
@@ -21,7 +39,12 @@
           <img src="gen.png">
          <h1>Actionable peer feedback</br>for your better <span class="fun">workself</span>
          </h1><p>
-          Improve your self-management skills and people skills</br>to put you on a fastest route to growth and improved performance.</br></p>
+          Improve your self-management skills and people skills</br>to put you on a fastest route to growth and improved performance.</p>
+      <p> <span class="fun2">9 PEOPLE JOINED</span><body onload="startTime()"><div id="txt"></div><br>
+</p>
+    
+    
+    
    <a class="typeform-share button" href="https://youngjang.typeform.com/to/vfZTKM" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#302d2e;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-hide-headers=true data-hide-footer=true target="_blank">Join Workself </a> 
     </div>
       

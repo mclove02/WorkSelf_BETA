@@ -29,7 +29,7 @@ h1 {
   text-align: center;
 /*   margin-top:-150px;*/
   width: 100%;
-    height: 780px;
+    height: 750px;
 /*    min-width: 800px;*/
 /*    height: 100%;*/
   background-color: #FAFAFA;
@@ -43,6 +43,7 @@ h1 {
     width: 50%;
 /*    min-width: 80%;*/
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 
@@ -59,7 +60,7 @@ p {
   line-height: 1.8;
 /*    min-width: 85%;*/
     margin: 0 auto;
-    margin-bottom: 80px;
+    margin-bottom: 25px;
 }
 
 
@@ -117,5 +118,24 @@ p {
 }
 
 
+.fun2 {
+    color: black;
+        box-shadow: inset 0 -7px 0 0px yellow;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.fun3 {
+    color: dodgerblue;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+#txt {
+    margin-top: -20px;
+    color: black;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
 
 
